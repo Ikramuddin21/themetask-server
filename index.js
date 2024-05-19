@@ -27,7 +27,7 @@ function getApi(path, collection) {
 
 async function run() {
   try {
-    await client.connect();
+    client.connect();
     const database = client.db("themetask_theme");
     const carouselCollection = database.collection("carousel");
     const themetaskCollection = database.collection("themetask");
