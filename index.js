@@ -98,5 +98,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log("Themetask listening on port", port);
 });
-
-module.exports = app;
